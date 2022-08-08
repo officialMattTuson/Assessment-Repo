@@ -1,0 +1,307 @@
+
+
+
+body {
+  background-image: url(../images/background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-style: normal;
+        text-align: center;
+        background-position:center;
+        margin: 0;
+        padding: 100px;
+        filter:brightness(85%);
+}
+
+#sprintHead {
+  text-align: center;
+}
+#javaHeading {
+  width: 100%;
+  text-align: center;
+  
+}
+
+.wholeDiv {
+  border-style: dashed;
+  position: absolute;
+  padding: 20px;
+  width: 40%;
+  transition: 2s;
+
+}
+.wholeDiv:hover {
+  background-color: rgb(218, 160, 84);
+  border-radius: 100px;
+  border-color: cyan;
+}
+
+
+.wholeDiv #analogyImage {  
+  width: 100%;
+}      
+
+.controlFlow {
+  border-style: dashed;
+  position: relative;
+  padding: 20px;
+  width: 40%;
+  left: 850px;
+  transition: 2s;
+}
+.controlFlow:hover {
+  background-color: rgb(218, 160, 84);
+  border-radius: 100px;
+  border-color: cyan;
+}
+.DOM {
+  border-style: dashed;
+  position: relative;
+  padding: 20px;
+  width: 46%;
+  top: 230px;
+  transition: 2s;
+}
+.DOM:hover {
+  background-color: rgb(218, 160, 84);
+  border-radius: 100px;
+  border-color: cyan;
+}
+
+#loopSteps {
+  font-size: large;
+  font-weight: bold;
+  color:green;
+}
+.dataCollectors{
+  border-style: dashed;
+  position: relative;
+  padding: 20px;
+  width: 46%;
+  top: -250px;
+  left: 850px;
+  transition: 2s;
+}
+  .dataCollectors:hover {
+    background-color: rgb(218, 160, 84);
+    border-radius: 100px;
+    border-color: cyan;
+  }
+
+  .functions {
+
+    border-style: dashed;
+    position: relative;
+    padding: 20px;
+    width: 46%;
+    top: -250px;
+    transition: 2s;
+  }
+    .functions:hover {
+      background-color: rgb(218, 160, 84);
+      border-radius: 100px;
+      border-color: cyan;
+    }
+
+.navigation ul li {
+    
+    list-style: none;
+    display: inline;
+    margin-left: 20%;   
+    font-size: x-small;
+    list-style-type: none;
+    margin:0;
+    padding: 2px;
+    overflow: hidden;
+    background-color: white;
+    
+    
+}
+.navigation ul li a {
+        font-size: small;
+        color: rgb(71, 30, 11);
+        cursor:pointer;
+        text-decoration: none;
+        margin-top: 0%;
+        padding: 10px;
+        font-weight: bold;
+        
+    }
+    .navigation ul li a:hover {
+      background-color:rgb(73, 192, 113);
+      border-radius: 30px;
+      animation-name: background-color;
+      animation-duration: 1s;
+      animation-fill-mode: forwards;
+      
+    }
+    @keyframes background-color {
+100% {
+  background-color:aliceblue;
+}
+}
+
+
+
+#happytimes {
+  width: 300px;
+  height: 380px;
+  border-radius: 40px;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  filter: grayscale(70%);
+  max-width: 100%;
+  height: auto;
+  
+  }
+
+
+
+#coolpic {
+  width:200px;
+  border-radius: 50px;
+  filter:grayscale(50%);
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+  margin-bottom:0;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+#goBack {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+
+#goBack:hover {
+      background-color:rgb(73, 192, 113);
+      border-radius: 30px;
+      animation-name: background-color;
+      animation-duration: 1s;
+      animation-fill-mode: forwards;
+      padding: 5px;
+    }
+@media (max-width: 320px) {
+  .navigation ul li {
+      display:block;
+  }
+  #happytimes {
+    width: 10%;
+  }
+}
+@media (max-width: 768px) {
+
+  #happytimes {
+    width: 30%;
+  }
+}
+
+
+.problemSolver {
+  border-style: dashed;
+  position: relative;
+  padding: 40px;
+  width: 80%;
+  transition: 2s;
+  margin: auto;
+  font-size: large;
+  font-weight: bold;
+
+}
+.problemSolver:hover {
+  background-color: rgb(218, 160, 84);
+  border-radius: 100px;
+  border-color: cyan;
+}
+#problemImage {
+
+  width: 80%;
+}
+.problemElegance {
+  border-style: dashed;
+  position: relative;
+  top:60px;
+  padding: 20px;
+  width: 80%;
+  transition: 2s;
+  margin: auto;
+  font-size: large;
+  font-weight: bold;
+
+
+}
+.problemElegance:hover {
+  background-color: rgb(218, 160, 84);
+  border-radius: 100px;
+  border-color: cyan;
+}
+.solvingMethods {
+  border-style: dashed;
+  position: relative;
+  top:100px;
+  padding: 20px;
+  width: 80%;
+  transition: 2s;
+  margin: auto;
+  font-size: large;
+  font-weight: bold;
+
+
+}
+.solvingMethods:hover {
+  background-color: rgb(218, 160, 84);
+  border-radius: 100px;
+  border-color: cyan;
+}
+
+#errorCode {
+  width:80%;
+}
+#pseudocode {
+  transition: 1s;
+}
+#pseudocode:hover {
+  background-color: rgb(143, 211, 143);
+  border-radius: 100px;
+  border-color: cyan;
+  
+  padding: 10px;
+}
+#problemFooter {
+  margin-bottom:0;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+  top: 150px;
+  
+}
+#back {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  border-style:hidden;
+  border-radius: 30px;
+  font-weight: bold;
+  position: relative;
+  top: 150px;
+}
+
+
+#back:hover {
+      background-color:rgb(73, 192, 113);
+      border-radius: 30px;
+      animation-name: background-color;
+      animation-duration: 1s;
+      animation-fill-mode: forwards;
+      padding: 5px;
+    }
